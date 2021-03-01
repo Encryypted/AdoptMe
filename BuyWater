@@ -1,0 +1,13 @@
+local amount = 5
+
+for i = 1, (amount) do
+   local args = {
+    [1] = "food",
+    [2] = "water",
+    [3] = {}
+}
+
+game:GetService("ReplicatedStorage").API.BRZboDyqtmrCoaj:InvokeServer(unpack(args))
+
+    wait()
+    end
